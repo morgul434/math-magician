@@ -14,7 +14,7 @@ def main():
       a = float(sys.argv[2])
       b = float(sys.argv[3]) 
 
-      if op == "add":
+      if op == "add" or op == "+":
         result = add(a, b);  
 
       print(f"Result: {result}")
